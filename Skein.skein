@@ -1,0 +1,2724 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1dbef680" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1dbef680" />
+  <item nodeId="node-0x1dbef680">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+READ FIRST: Life as you know it has virtually ended. People of the world have been affected by a deadly strain of bird flu. They have turned into the walking dead -zombies. You&apos;ve yet to catch the virus, but they&apos;re catching up to you. You&apos;re next. You&apos;ve left your home in California and now you&apos;re on the run. However, while you&apos;re on your journey you see a house. You need to go to the house for shelter and supplies.
+
+Let Me In
+An Interactive Fiction by Allison Smith
+Release 1 / Serial number 141008 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward.  Keep in mind that the key that unlocks the front entrance is not something you would expect.
+
+You can see a staircase, a kitchen_door, a front entrance door, a note, a vase, a table, an ax, a pair of steel-toed boots and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="350">NO</temporary>
+    <children>
+      <child nodeId="node-0xb093b60" />
+      <child nodeId="node-0xb092740" />
+      <child nodeId="node-0xb0926d0" />
+      <child nodeId="node-0xb092580" />
+      <child nodeId="node-0xb092190" />
+      <child nodeId="node-0xb095ef0" />
+      <child nodeId="node-0xb095da0" />
+      <child nodeId="node-0xb096800" />
+      <child nodeId="node-0xb097f70" />
+      <child nodeId="node-0xb097f00" />
+      <child nodeId="node-0xb09bb90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb09bb90">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">delicate object.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1181">YES</temporary>
+  </item>
+  <item nodeId="node-0xb097f00">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Your name is Lyndsee Palsi and you smell really bad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1179">YES</temporary>
+  </item>
+  <item nodeId="node-0xb097f70">
+    <command xml:space="preserve">take ax</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0974c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0974c0">
+    <command xml:space="preserve">take boots</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097530" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097530">
+    <command xml:space="preserve">take chest</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0975a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0975a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a pair of steel-toed boots
+  an ax
+  Sword
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097610" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097610">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097680" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097680">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">
+Playroom
+The lavatory is to the east.
+
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0976f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0976f0">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">What do you want to attack?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097760" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097760">
+    <command xml:space="preserve">zombie</command>
+    <result xml:space="preserve">You take the sword and stab the zombie and impale its head over and over again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0977d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0977d0">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">The zombie is no longer a problem. Move on murderer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097840" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097840">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lavatory door)
+
+Lavatory
+The lavatory is to the east.
+
+You can see a lavatory door and a mirror cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096c30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096c30">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the mirror cabinet, revealing a razor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096c80">
+    <command xml:space="preserve">take razor</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096cf0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Playroom
+The lavatory is to the east.
+
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a lavatory door and a staircase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096d60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096dd0">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward.  Keep in mind that the key that unlocks the front entrance is not something you would expect.
+
+You can see a staircase, a kitchen_door, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096e40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the front entrance door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096eb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096f20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096f20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the kitchen_door)
+
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive.  The office door is south. The bedroom door is east. 
+
+You can see a kitchen_door, an office door, a bedroom_door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096f90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the bedroom_door)
+
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west . However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door, a key and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097000" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097000">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097070" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097070">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive.  The office door is south. The bedroom door is east. 
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0970e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0970e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west . However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097150" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097150">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive.  The office door is south. The bedroom door is east. 
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0971c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0971c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097230" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097230">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the office door)
+
+office
+The lavatory is to the east.
+
+You can see an office door here.
+
+
+
+    *** It&apos;s a booby trap! As you open the office door killer spears fly out and impale you. You die a terrible death. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0972a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0972a0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097310" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097310">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west . However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb097380" />
+    </children>
+  </item>
+  <item nodeId="node-0xb097380">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive.  The office door is south. The bedroom door is east. 
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0962c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0962c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096330" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096330">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west . However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0963a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0963a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive.  The office door is south. The bedroom door is east. 
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096410" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096410">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward.  Keep in mind that the key that unlocks the front entrance is not something you would expect.
+
+You can see a kitchen_door, a staircase, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096480" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096480">
+    <command xml:space="preserve">unlock chest</command>
+    <result xml:space="preserve">What do you want to unlock the chest with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0964f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0964f0">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096560" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096560">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing a gun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0965d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0965d0">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096640" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096640">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0966b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0966b0">
+    <command xml:space="preserve">gun</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096720" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096720">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the front entrance door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1242">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096790" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096790">
+    <command xml:space="preserve">gun</command>
+    <result xml:space="preserve">You unlock the front entrance door.
+
+
+
+    *** You run out of the house and you quickly realize you&apos;re surrounded. You try to fight the zombies off for as long as you can, but you quickly weaken. There&apos;s hundreds of them, but only one of you. As you&apos;re fighting a small pack of zombies one sneaks up behind you and rips your throat out. THE END ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1241">YES</temporary>
+  </item>
+  <item nodeId="node-0xb096800">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening the kitchen_door)
+
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a kitchen_door, an office door, a bedroom_door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096870" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096870">
+    <command xml:space="preserve">x pantry</command>
+    <result xml:space="preserve">food storage
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0968e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0968e0">
+    <command xml:space="preserve">x round table</command>
+    <result xml:space="preserve">You see nothing special about the round table.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096950" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096950">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the bedroom_door)
+
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west. However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door, a key and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0969c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0969c0">
+    <command xml:space="preserve">x dead children</command>
+    <result xml:space="preserve">the dead bodies of the previous owner&apos;s children
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096a30">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096aa0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front enterance is not something you would expect.
+
+You can see a kitchen_door, a staircase, a front entrance door, a note, a couch, a vase, a table, an ax, a pair of steel-toed boots and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096b10">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096b80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096b80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lavatory door)
+
+Lavatory
+You can see a lavatory door and a mirror cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095880" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095880">
+    <command xml:space="preserve">x mirror</command>
+    <result xml:space="preserve">A medicine cabinet that holds something very important
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0958d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0958d0">
+    <command xml:space="preserve">open mirror</command>
+    <result xml:space="preserve">You open the mirror cabinet, revealing a razor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095940" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095940">
+    <command xml:space="preserve">x razor</command>
+    <result xml:space="preserve">the key to your problems
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0959b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0959b0">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a lavatory door and a staircase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095a20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095a90">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front enterance is not something you would expect.
+
+You can see a staircase, a kitchen_door, a front entrance door, a note, a couch, a vase, a table, an ax, a pair of steel-toed boots and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095b00">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a kitchen_door, a bedroom_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095b70">
+    <command xml:space="preserve">take fridge</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1005">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095be0">
+    <command xml:space="preserve">take table</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1004">YES</temporary>
+  </item>
+  <item nodeId="node-0xb095da0">
+    <command xml:space="preserve">UP</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="826">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095e10">
+    <command xml:space="preserve">ATTACK ZZOMBIE</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="826">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095e80">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">You take the sword and stab the zombie and impale its head over and over again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="825">YES</temporary>
+  </item>
+  <item nodeId="node-0xb095ef0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">That&apos;s not gonna happen, buddy,
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1180">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095f60" />
+      <child nodeId="node-0xb090520" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090520">
+    <command xml:space="preserve">take boots</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090590" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090590">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Gather all the supplies you need to fight the zombies and save yourself from death.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090600" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090600">
+    <command xml:space="preserve">take vase</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090670" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090670">
+    <command xml:space="preserve">take ax</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0906e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0906e0">
+    <command xml:space="preserve">take chest</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090750" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090750">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the kitchen_door)
+
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a kitchen_door, an office door, a bedroom_door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0907c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0907c0">
+    <command xml:space="preserve">open pantry</command>
+    <result xml:space="preserve">You open the pantry, revealing water, beef jerky and nuts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090830" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090830">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">That&apos;s not gonna happen, buddy,
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0908a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0908a0">
+    <command xml:space="preserve">take water</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090910" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090910">
+    <command xml:space="preserve">take beef jerky</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090980" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090980">
+    <command xml:space="preserve">take nuts</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0909f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0909f0">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">A ZOMBIE HEAD! CLOSE THE FRIDGE BEFORE YOU BARF.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090a60">
+    <command xml:space="preserve">take zombie head</command>
+    <result xml:space="preserve">Taken.
+
+
+
+    *** The zombie head still had some bite to it! It bites you and you become a zombie. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090ad0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090b40">
+    <command xml:space="preserve">take knives</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090bb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front enterance is not something you wouldn&apos;t expect.
+
+You can see a kitchen_door, a staircase, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090c20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the front entrance door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090c90">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090d00">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the lavatory door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090d70">
+    <command xml:space="preserve">go</command>
+    <result xml:space="preserve">You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090de0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090de0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090e50">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090ec0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lavatory
+You can see a lavatory door and a mirror cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090f30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090f30">
+    <command xml:space="preserve">open mirror cabinet</command>
+    <result xml:space="preserve">You open the mirror cabinet, revealing a razor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090fa0">
+    <command xml:space="preserve">take razor</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091010" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091010">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a lavatory door and a staircase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091080" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091080">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0910f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0910f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091160" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091160">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lavatory
+You can see a lavatory door and a mirror cabinet (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0911d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0911d0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a lavatory door and a staircase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091240" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091240">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0912b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0912b0">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front enterance is not something you wouldn&apos;t expect.
+
+You can see a staircase, a kitchen_door, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091320" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091320">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091390" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091390">
+    <command xml:space="preserve">unlock chest with razor</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091400" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091400">
+    <command xml:space="preserve">oi</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091470" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091470">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a razor
+  a knives
+  nuts
+  beef jerky
+  water
+  an ax
+  a pair of steel-toed boots
+  Sword
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0914e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0914e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a kitchen_door, an office door, a bedroom_door, a pantry (empty), a round table and a fridge (in which is Zombie head) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091550" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091550">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the bedroom_door)
+
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west. However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door, a key and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0915c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0915c0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091630" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091630">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the closet door)
+
+closet
+You can see a closet door here.
+
+
+
+    *** You open the closet door and fall into a giant pit. In the giant pit, there are hoards of captive zombies. They quickly put an end to your life. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0916a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0916a0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">bedroom
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091710" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091710">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (empty), a round table and a fridge (in which is Zombie head) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091780" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091780">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the office door)
+
+office
+You can see an office door here.
+
+
+
+    *** It&apos;s a booby trap! As you open the office door killer spears fly out and impale you. You die a terrible death. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0917f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0917f0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091860" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091860">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0918d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0918d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west. However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091940" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091940">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Kitchen
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0919b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0919b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front enterance is not something you wouldn&apos;t expect.
+
+You can see a kitchen_door, a staircase, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091a20">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091a90">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You unlock the chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091b00">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing a gun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091b70">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091be0">
+    <command xml:space="preserve">open front enterance</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open the front entrance door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091c50" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091c50">
+    <command xml:space="preserve">open front entrance</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091cc0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a gun
+  a key
+  a razor
+  a knives
+  nuts
+  beef jerky
+  water
+  an ax
+  a pair of steel-toed boots
+  Sword
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091d30">
+    <command xml:space="preserve">unlock front entrance with beef jerky</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091da0">
+    <command xml:space="preserve">unlock front entrance with ax</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091e10">
+    <command xml:space="preserve">unlock front entrance with gun</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091e80">
+    <command xml:space="preserve">unlock front entrance with key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091ef0">
+    <command xml:space="preserve">unlock front entrance with razor</command>
+    <result xml:space="preserve">You unlock the front entrance door.
+
+
+
+    *** You run out of the house and you quickly realize you&apos;re surrounded. You try to fight the zombies off for as long as you can, but you quickly weaken. There&apos;s hundreds of them, but only one of you. As you&apos;re fighting a small pack of zombies one sneaks up behind you and rips your throat out. THE END ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091f60">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Living room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb091fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb091fd0">
+    <command xml:space="preserve">x me</command>
+    <result xml:space="preserve">Your name is Lyndsee Palsi and you smell really bad.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092040" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092040">
+    <command xml:space="preserve">x gun</command>
+    <result xml:space="preserve">boom boom.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0920b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0920b0">
+    <command xml:space="preserve">x sword</command>
+    <result xml:space="preserve">sharp object meant for killing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1132">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092120" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092120">
+    <command xml:space="preserve">x ax</command>
+    <result xml:space="preserve">A shiny, metal tool used for chopping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1131">YES</temporary>
+  </item>
+  <item nodeId="node-0xb095f60">
+    <command xml:space="preserve">take </command>
+    <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb095fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb095fd0">
+    <command xml:space="preserve">all</command>
+    <result xml:space="preserve">That&apos;s not gonna happen, buddy,
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096040" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096040">
+    <command xml:space="preserve">take couch</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0960b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0960b0">
+    <command xml:space="preserve">take vase</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096120" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096120">
+    <command xml:space="preserve">take table</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096190" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096190">
+    <command xml:space="preserve">i ax</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take inventory.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb096200" />
+    </children>
+  </item>
+  <item nodeId="node-0xb096200">
+    <command xml:space="preserve">x ax</command>
+    <result xml:space="preserve">A shiny, metal tool used for chopping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090410" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090410">
+    <command xml:space="preserve">take ax</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090460" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090460">
+    <command xml:space="preserve">take note</command>
+    <result xml:space="preserve">Gather all the supplies you need to fight the zombies and save yourself from death.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="850">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0904b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0904b0">
+    <command xml:space="preserve">take boots</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="849">YES</temporary>
+  </item>
+  <item nodeId="node-0xb092190">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">
+Playroom
+The lavatory is to the east.
+
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092200" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092200">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Sword
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092270" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092270">
+    <command xml:space="preserve">x word</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0922e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0922e0">
+    <command xml:space="preserve">x sword</command>
+    <result xml:space="preserve">sharp object meant for killing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092350" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092350">
+    <command xml:space="preserve">kill zombies</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0923c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0923c0">
+    <command xml:space="preserve">attack zombies</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092430" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092430">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">You take the sword and stab the zombie and impale its head over and over again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0924a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0924a0">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">(first opening the lavatory door)
+
+Lavatory
+The lavatory is to the east.
+
+You can see a lavatory door and a mirror cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092510" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092510">
+    <command xml:space="preserve">x mirror</command>
+    <result xml:space="preserve">A medicine cabinet that holds something very important
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1250">YES</temporary>
+  </item>
+  <item nodeId="node-0xb092580">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the front entrance door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1202">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0925f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0925f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the kitchen_door)
+
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive.  The office door is south. The bedroom door is east. 
+
+You can see a kitchen_door, an office door, a bedroom_door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1202">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092660" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092660">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the bedroom_door)
+
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west . However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door, a key and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1201">YES</temporary>
+  </item>
+  <item nodeId="node-0xb0926d0">
+    <command xml:space="preserve">x ax</command>
+    <result xml:space="preserve">A shiny, metal tool used for chopping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="827">YES</temporary>
+  </item>
+  <item nodeId="node-0xb092740">
+    <command xml:space="preserve">take couch</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0927b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0927b0">
+    <command xml:space="preserve">take vase</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092820" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092820">
+    <command xml:space="preserve">x vase</command>
+    <result xml:space="preserve">delicate object.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092890" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092890">
+    <command xml:space="preserve">take table</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092900" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092900">
+    <command xml:space="preserve">take ax</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092970" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092970">
+    <command xml:space="preserve">x ax</command>
+    <result xml:space="preserve">A shiny, metal tool used for chopping.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0929e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0929e0">
+    <command xml:space="preserve">take boots</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092a50">
+    <command xml:space="preserve">xboots</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092ac0">
+    <command xml:space="preserve">x boots</command>
+    <result xml:space="preserve">A pair of shoes used to protect your feet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092b30" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092b30">
+    <command xml:space="preserve">take chest</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092ba0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a pair of steel-toed boots
+  an ax
+  Sword
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092c10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092c10">
+    <command xml:space="preserve">x sword</command>
+    <result xml:space="preserve">sharp object meant for killing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092c80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092c80">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the kitchen_door)
+
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a kitchen_door, an office door, a bedroom_door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092cf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092d60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the bedroom_door)
+
+bedroom
+You&apos;re finally in the bedroom. You&apos;ve almost gathered all of the supplies that you need. The closet is to the north. The bedroom door is to the west. However, as you start searching the bedroom you realize there&apos;s three dead children mangled on the bed. Their intestines spilling out of their body. Their jaws torn from their face. You need to get out of here and quick!
+
+You can see a bedroom_door, a closet door, a key and a dead children here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092dd0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092e40">
+    <command xml:space="preserve">x children</command>
+    <result xml:space="preserve">the dead bodies of the previous owner&apos;s children
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092eb0">
+    <command xml:space="preserve">take children</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092f20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092f20">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Kitchen
+You&apos;ve now entered the kitchen. There are a lot more useful supplies here. However, you need to hurry because the zombies are gaining on you. I can hear their relentless moans in the distance. This is not a time to be scared. You can push through and survive. The office door is south. The bedroom door is east.
+
+You can see a bedroom_door, a kitchen_door, an office door, a pantry (closed), a round table, a knives and a fridge (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb092f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xb092f90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front entrance is not something you wouldn&apos;t expect.
+
+You can see a kitchen_door, a staircase, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093000" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093000">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093070" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093070">
+    <command xml:space="preserve">attack</command>
+    <result xml:space="preserve">What do you want to attack?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0930e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0930e0">
+    <command xml:space="preserve">zombie</command>
+    <result xml:space="preserve">You take the sword and stab the zombie and impale its head over and over again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093150" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093150">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the lavatory door)
+
+Lavatory
+You can see a lavatory door and a mirror cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0931c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0931c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a lavatory door and a staircase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093230" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093230">
+    <command xml:space="preserve">take zombie</command>
+    <result xml:space="preserve">I don&apos;t suppose Undead would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0932a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0932a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093310" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093310">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Lavatory
+You can see a lavatory door and a mirror cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093380" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093380">
+    <command xml:space="preserve">open cabiney</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0933f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0933f0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open the mirror cabinet, revealing a razor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093460" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093460">
+    <command xml:space="preserve">take razor</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0934d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0934d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093540" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093540">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Playroom
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a lavatory door and a staircase here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0935b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0935b0">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">
+Living room
+You&apos;re in the living room right now of the old, abandoned house you found. You&apos;ve been running for a while now. The zombies are catching up to you. While the zombies are slow, they&apos;re determined. You can&apos;t live like this anymore. You have to fight. Don&apos;t leave the house through the front entrance until you&apos;ve gathered everything you need. You&apos;re already carrying a sword, just in case. The kitchen door is to the east. The front entrance door is to the west. The staircase is upward. Keep in mind that the key that unlocks the front entrance is not something you wouldn&apos;t expect.
+
+You can see a staircase, a kitchen_door, a front entrance door, a note, a couch, a vase, a table and a chest (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093620" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093620">
+    <command xml:space="preserve">x chest</command>
+    <result xml:space="preserve">A metal box with something valueable in it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093690" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093690">
+    <command xml:space="preserve">unlock chest with key</command>
+    <result xml:space="preserve">You unlock the chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093700" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093700">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open the chest, revealing a gun.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093770" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093770">
+    <command xml:space="preserve">take gun</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0937e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0937e0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the front entrance door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093850" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093850">
+    <command xml:space="preserve">gun</command>
+    <result xml:space="preserve">You unlock the front entrance door.
+
+
+
+    *** You run out of the house and you quickly realize you&apos;re surrounded. You try to fight the zombies off for as long as you can, but you quickly weaken. There&apos;s hundreds of them, but only one of you. As you&apos;re fighting a small pack of zombies one sneaks up behind you and rips your throat out. THE END ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0938c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0938c0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093930" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093930">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Living room
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb0939a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb0939a0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the front entrance door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093a10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093a10">
+    <command xml:space="preserve">razor</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093a80">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the front entrance door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1178">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093af0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093af0">
+    <command xml:space="preserve">gun</command>
+    <result xml:space="preserve">You unlock the front entrance door.
+
+
+
+    *** You run out of the house and you quickly realize you&apos;re surrounded. You try to fight the zombies off for as long as you can, but you quickly weaken. There&apos;s hundreds of them, but only one of you. As you&apos;re fighting a small pack of zombies one sneaks up behind you and rips your throat out. THE END ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1177">YES</temporary>
+  </item>
+  <item nodeId="node-0xb093b60">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Playroom
+The lavatory is to the east.
+
+THERE&apos;S A ZOMBIE UP HERE!!!! ATTAAAAAAAAAACK!
+
+You can also see a staircase and a lavatory door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1195">YES</temporary>
+    <children>
+      <child nodeId="node-0xb093bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb093bd0">
+    <command xml:space="preserve">attack zombie</command>
+    <result xml:space="preserve">You take the sword and stab the zombie and impale its head over and over again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="822">YES</temporary>
+  </item>
+</Skein>
